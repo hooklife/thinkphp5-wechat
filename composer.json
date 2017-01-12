@@ -11,6 +11,11 @@
     "require": {
         "overtrue/wechat": "~3.0"
     },
+    "autoload": {
+        "psr-4": {
+            "Hooklife\\": "src"
+        }
+    },
     "post-install-cmd": [
         "Hooklife\\ThinkphpWechat\\ComposerScripts::sendConfig"
     ],
