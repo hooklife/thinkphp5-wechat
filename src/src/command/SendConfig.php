@@ -21,8 +21,7 @@ class SendConfig extends Command
     public function execute(Input $input, Output $output)
     {
         //获取默认配置文件
-        $config = file_get_contents('../config.php');
-
+        $config = file_get_contents(VENDOR_PATH .'hooklife/thinkphp5-wechat/src/config.php');
         $sendConfigPath = CONF_PATH.'extra/';
         $sendConfigFile = $sendConfigPath.'wechat.php';
         mkdir($sendConfigPath);
