@@ -14,7 +14,10 @@
     "autoload": {
         "psr-4": {
             "Hooklife\\ThinkphpWechat\\": "src/"
-        }
+        },
+        "files": [
+            "src/command/SendConfig.php"
+        ]
     },
     "post-install-cmd": [
         "Hooklife\\ThinkphpWechat\\ComposerScripts::sendConfig"
