@@ -11,10 +11,8 @@
     "require": {
         "overtrue/wechat": "~3.0"
     },
-    "extra": {
-        "think-config": {
-            "wechat": "src/config.php"
-        }
-    },
+    "post-install-cmd": [
+        "Hooklife\\ThinkphpWechat\\ComposerScripts::sendConfig"
+    ],
     "license": "Apache-2.0"
 }
