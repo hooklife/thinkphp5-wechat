@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Hooklife\\": "src"
+            "Hooklife\\ThinkphpWechat\\": "src/"
         }
     },
     "post-install-cmd": [
