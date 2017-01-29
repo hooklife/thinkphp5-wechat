@@ -24,7 +24,7 @@ class SendConfig extends Command
         $config = file_get_contents(VENDOR_PATH .'hooklife/thinkphp5-wechat/src/config.php');
         $sendConfigPath = CONF_PATH.'extra/';
         $sendConfigFile = $sendConfigPath.'wechat.php';
-        mkdir($sendConfigPath);
+        @mkdir($sendConfigPath);
 
         return file_exists($sendConfigFile) ? true : file_put_contents($sendConfigFile,$config);
     }
