@@ -50,6 +50,9 @@ class Wechat
     {
         if (!isset(self::$app)) {
             $options = Config::get('wechat');
+            if(!$options){
+                throw new \InvalidArgumentException("missing wechat config");
+            }
             self::$app = new Application($options);
         }
         return self::$app;
