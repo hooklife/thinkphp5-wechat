@@ -16,7 +16,7 @@
             "Hooklife\\ThinkphpWechat\\": "src/"
         },
         "files": [
-            "src/Helper.php"
+            "src/helper.php"
         ]
     },
     "post-install-cmd": [
