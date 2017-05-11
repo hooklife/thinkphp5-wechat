@@ -3,13 +3,13 @@
 
 ## 安装方法
 
-###第一步 使用composer下载SDK
+### 第一步 使用composer下载SDK
 
 ```bash
 composer require hooklife/thinkphp5-wechat
 ```
 
-###第二步 发布配置文件到TP目录
+### 第二步 发布配置文件到TP目录
 
 项目根目录执行
 
