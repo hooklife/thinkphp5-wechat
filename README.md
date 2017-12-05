@@ -1,3 +1,11 @@
+
+最近正在准备新功能,和更完善的手册.
+
+需要有人能提供一个公众账号我进行调试
+
+希望有闲置账号的小伙伴能提供一个,谢谢啦
+
+
 # thinkphp5-wechat
 微信 SDK for thinkphp5, 基于 [overtrue/wechat](https://github.com/overtrue/wechat)
 
